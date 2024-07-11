@@ -11,3 +11,11 @@ These iframes might have an href target like: `/proxy/index.html?some=query-para
 In the context of `myst` the same visualisations run into issues when connecting to remote Jupyter servers running on different origins, as the cookie-based auth in play in a same-origin lab front ends, will fail on a typlical myst website.
 
 By exposing the user token, end user code can do something about this and supply the user token string to the library / extension code that needs it.
+
+## Usage
+
+Add the package to your `pip` dependencies or install to your local environmnt
+
+```
+pip install jupyter-extension-user-token
+```
