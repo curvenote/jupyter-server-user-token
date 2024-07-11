@@ -17,5 +17,11 @@ By exposing the user token, end user code can do something about this and supply
 Add the package to your `pip` dependencies or install to your local environmnt
 
 ```
-pip install jupyter-extension-user-token
+python -m pip install jupyter-extension-user-token
+```
+
+Verify a local installation
+
+```
+python -m jupyter server extension list
 ```
